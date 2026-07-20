@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:none;
+    
+}
+body {
+    background:url(spiderman.jpg) no-repeat center center/cover;
+    min-height: 100vh;
+    color: #f7f6f6;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 191, 0);
+    padding: 10px 20px;
+    
+    
+}
+.navbar {
+    background-image: url("poja.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    border: 3px solid rgb(255, 191, 0);
+}
+
+.logo {
+    color: rgb(255, 191, 0);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 45px;
+    
+}
+
+.links a {
+    color: rgb(255, 191, 0);
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: rgb(250, 250, 246);
+    border: 2px solid rgb(255, 191, 0);
+    border-radius: 5px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background:url(spiderman.jpg) no-repeat center center/cover;
+    min-height: 100vh;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+    min-height: 100vh;
+}
+
+.content{
+    max-width: 600px;
+}
+
+.content h3{
+    font-size: 28px;
+    color: rgb(255, 191, 0);
+    margin-bottom: 10px;
+}
+
+.content h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.content h2{
+    font-size: 35px;
+    color: rgb(255, 191, 0);
+    margin-bottom: 20px;
+}
+
+.content p{
+    font-size: 18px;
+    line-height: 1.8;
+    color: rgb(255, 191, 0);
+    margin-bottom: 30px;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 12px 28px;
+    background: white;
+    color:rgb(255, 191, 0);
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn-outline{
+    background: transparent;
+    color: black;
+    border: 2px solid rgb(255, 191, 0);
+}
+
+.btn-outline:hover{
+    background: rgb(255, 191, 0);
+    color:black;
+}
+
+.image img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 191, 0);
+box-shadow: 0 0 10px rgb(255, 191, 0),
+            0 0 20px rgb(255, 191, 0),
+            0 0 40px rgb(255, 191, 0);
+}
+
+@media (max-width: 768px){
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .content h1{
+        font-size: 45px;
+    }
+
+    .content h2{
+        font-size: 28px;
+    }
+
+    .buttons{
+        justify-content: center;
+    }
+
+    .image img{
+        width: 250px;
+        height: 250px;
+    }
+}
+.btn {
+    display: block;
+    margin: 5px auto;
+    padding: 12px 30px;
+    background: rgb(255, 191, 0);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #f7f6f6;
+    color: #0b0101;
+}
